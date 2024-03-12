@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header class="cabecalho">
+          <a href="index.html"><img src="imagens/Frame 6.svg" alt="logo alura"></a>
+         </header>
+        <main>
+            <section class="parte_esqueda">
+                <div class="container_imput">           
+                <div class="imput">
+                    <textarea id="imput-name" placeholder="Digite o texto..."></textarea>
+                </div>
+                <div class="aviso">
+                    <img src="imagens/bi_exclamation-circle-fill.svg">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="buttons">
+                    <div class="container_buttons">
+                        <button onclick="criptografar()" class="button_criptogragar">Criptografar</button>
+                        <button onclick="descriptografar()" class="button_descriptografar">Descriptografar</button>
+                    </div>
+                </div> 
+                </div>      
+            </section>
+
+            <section class="parte_direita">   
+                <div class="imagem">        
+                    <div id="output">
+                        <p>Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
+                        <h1>Nenhuma mensagem <br>encontrada</h1>
+                        
+                        <img src="imagens/High quality products 1 1.svg" alt="desenho olhando uma lupa">
+                       
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="icons">
+            <a href=""><ion-icon name="logo-github"></ion-icon></a>
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            <h2>Desenvolvido por Romario para curso FRONT-END Alura</H2>
+
+        </footer>
+        
+                
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
